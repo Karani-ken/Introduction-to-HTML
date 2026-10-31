@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+</head>
+
+<body>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <!--About section-->
+    <section id="about">
+        <h1>About me</h1>
+        <img src="/images/profile.jpg" alt="">
+        <p>I am a beginner learning how to build websites.</p>
+        <p>I am learning from <a href="https://www.w3schools.com/" target="_blank">W3 schools</a></p>
+        <h2>My interests</h2>
+        <p>I enjoy technology, solving problems, and learning new skills.</p>
+    </section>
+
+
+    <!--Hobbies section-->
+    <section id="hobbies">
+        <h2>My hobbies</h2>
+        <!--Unordered list ul-->
+        <ul>
+            <li>Reading</li>
+            <li>Learning technology</li>
+            <li>Listening to music</li>
+        </ul>
+
+
+        <h2>My learning Goals</h2>
+        <!--an Ordered list ol-->
+        <ol>
+            <li>Learn HTML</li>
+            <li>learn CSS</li>
+            <li>learn Javascript</li>
+        </ol>
+    </section>
+    <section id="skills">
+        <h2>My skills</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col">Skill</th>
+                    <th scope="col">level</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>beginner</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>beginner</td>
+                </tr>
+                <tr>
+                    <td>Communication</td>
+                    <td>Intermediate</td>
+                </tr>
+                <tr>
+                    <td>Problem-solving</td>
+                    <td>Beginner</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="enter your name">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="enter your email">
+            </div>
+            <div>
+                <label for="message">Message</label>
+                <textarea name="message" id="message"></textarea>
+            </div>
+            <div>
+                <label for="date">Date</label>
+                <input type="datetime" name="date" id="date">
+            </div>
+            <div>
+                <label for="date">Date</label>
+                <input type="date" name="date" id="date">
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password">
+            </div>
+
+            <button type="submit">Send message</button>
+        </form>
+        <p>You can contact me via my <a href="mailto:kenneth0karani@gmail.com">email</a> </p>
+    </section>
+
+
+
+</body>
+
+</html>
