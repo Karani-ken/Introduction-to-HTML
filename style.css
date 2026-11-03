@@ -1,5 +1,65 @@
-*{
+* {
     color: purple;
 }
 
-/*This is comment*/
+ul>li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 15px;
+    color: aqua;
+    letter-spacing: 1.5px;
+    list-style: lower-roman;
+}
+nav{
+    text-align: center;
+}
+nav > a {
+    text-decoration: none;
+    text-align: center;
+    color: #4f4c4c;    
+    margin: 2px;
+}
+
+nav > a:hover {
+   color: greenyellow;
+}
+
+nav > a:active{
+  color: blue;
+}
+img{
+    border: 1px;
+    border-style: solid;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+/*header styling*/
+header{
+    text-align: center; 
+    border-bottom: 1px solid;  
+}
+header > h1{
+    color: #000;
+    font-size: 24px;
+}
+header > p {
+    color: #4f4c4c;
+    font-size: 16px;
+}
+
+/*form{
+    border: 1px;
+    border-style: solid;
+    border-color: #4f4c4c;
+    border-radius: 10px ;
+}*/
+
+form{
+   border: 1px solid #4f4c4c; 
+   border-radius: 10px ;
+   margin: 15px;
+   padding: 2rem;
+}
